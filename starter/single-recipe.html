@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single recipes</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+   <!--nav-->
+   <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="simply recipes" />
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link"> home </a>
+        <a href="about.html" class="nav-link"> about </a>
+        <a href="tags.html" class="nav-link"> tags </a>
+        <a href="recipes.html" class="nav-link"> recipes </a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn"> contact </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--end of nav-->
+  <main class="page">
+    <div class="recipe-page">
+      <section class="recipe-hero">
+        <img src="./assets/recipes/recipe-4.jpeg" class="img recipe-hero-img" alt="pancakes"/>
+        <article>
+          <h2>Banana Pancakes</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod placeat, quibusdam dolore delectus quia quo, cupiditate debitis officia ab, sequi obcaecati numquam mollitia fugit voluptatum deleniti vel omnis ad asperiores?
+          </p>
+          <!--recipe icon-->
+          <div class="recipe-icons">
+            <!--Single recipe icon-->
+            <article>
+              <i class="fas fa-clock"></i>
+              <h5>prep Time</h5>
+              <p>30 min.</p>
+            </article>
+            <!--Single recipe icon-->
+            <article>
+              <i class="far fa-clock"></i>
+              <h5>Cook Time</h5>
+              <p>15 min.</p>
+            </article>
+            <!--Single recipe icon-->
+            <article>
+              <i class="fas fa-user-friends"></i>
+              <h5>Serving 6</h5>
+              <p>6 Serving</p>
+            </article>
+          </div>
+          <!--recipe tags-->
+          <div class="recipe-tags">
+          Tags:<a href="tag-template.html">Meat</a>
+          <a href="tag-template.html">Breakfast</a>
+          <a href="tag-template.html">Pancakes</a>
+          <a href="tag-template.html">Food</a>
+          </div>
+        </article>
+      </section>
+      <!--recipecontent-->
+      <section class="recipe-content"></section>
+    </div>
+  </main>
+  <!--end of main-->
+  <!--footer-->
+  <footer class="page-footer">
+    <p>&copy;<span id="date"></span>
+
+    <span class="footer-logo">
+      SimplyRecipes
+    </span>Built by <a  href="https://github.com/jmakwana01">Jay Makwana</a></p>
+  </footer>
+  <script src="./js/app.js"></script>
+    
+  </body>
+</html>
+
